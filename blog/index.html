@@ -7,9 +7,9 @@ title: Jbad's Blog
 
 	  {% for post in site.posts %}
 	    <li><span>
-		    <img src="{{ post.thumbnail }}" width height="120" width="120"/> <br>
 		    {{ post.date | date_to_string }}</span> » 
-		    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}
+		    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br>
+		    <img src="{{ post.thumbnail }}" style="display:block;max-width:100%;height:auto;margin:auto;float:none!important;"/> 
 		    </a></li>
 	  {% endfor %}
 	</ul>
