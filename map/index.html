@@ -16,25 +16,22 @@ title: Jbad's Map
 			style: 'mapbox://styles/mapbox/streets-v11'});
 		var mydata = JSON.parse(choque);
 		map.on('load', function () {
-map.addSource('route', {
-'type': 'geojson',
-'data': mydata
-}
-});
-map.addLayer({
-'id': 'route',
-'type': 'line',
-'source': 'route',
-'layout': {
-'line-join': 'round',
-'line-cap': 'round'
-},
-'paint': {
-'line-color': '#888',
-'line-width': 8
-}
-});
-});
+ 			map.addSource('route', {
+				'type': 'geojson',
+				'data': mydata
+			});
+			map.addLayer({
+				'id': 'route',
+				'type': 'line',
+				'source': 'route',
+				'layout': {
+					'line-join': 'round',
+					'	line-cap': 'round'
+				},
+				'paint': {
+					'line-color': '#888',
+					'line-width': 8
+				}
+			});
+		});
 </script>
-		
-	</script>
