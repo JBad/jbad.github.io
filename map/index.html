@@ -3,6 +3,7 @@ layout: default
 title: Jbad's Map
 ---
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+<script type="text/javascript" src="/map/res/choque.geojson"></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
 
 	<h1>{{ page.title }}</h1>
@@ -13,4 +14,27 @@ title: Jbad's Map
 		var map = new mapboxgl.Map({
 			container: 'map',
 			style: 'mapbox://styles/mapbox/streets-v11'});
+		var mydata = JSON.parse(choque);
+		map.on('load', function () {
+map.addSource('route', {
+'type': 'geojson',
+'data': mydata
+}
+});
+map.addLayer({
+'id': 'route',
+'type': 'line',
+'source': 'route',
+'layout': {
+'line-join': 'round',
+'line-cap': 'round'
+},
+'paint': {
+'line-color': '#888',
+'line-width': 8
+}
+});
+});
+</script>
+		
 	</script>
