@@ -3,13 +3,10 @@ layout: default
 title: Jbad's Map
 ---
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
-<script type="text/javascript" src="/map/res/choque.geojson"></script>
+<script id="choque" type="text/javascript" src="/map/res/choque.geojson"></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
-
-	<h1>{{ page.title }}</h1>
-	trying to make a map...
-	<div id='map' style='width: 400px; height: 300px;'></div>
 	<script>
+		function load() {
 		mapboxgl.accessToken = 'pk.eyJ1IjoiamJhZGFzaCIsImEiOiJja3ExM3oxczAwMXNwMm9sYTNsbXZqdTBnIn0.5Kvwf2lG7rxYvJ9K63bcsA';
 		var map = new mapboxgl.Map({
 			container: 'map',
@@ -34,4 +31,7 @@ title: Jbad's Map
 				}
 			});
 		});
+		}
 </script>
+    <body onload="load()">
+    </body>
