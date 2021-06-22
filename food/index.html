@@ -7,7 +7,7 @@ title: Food Stuff
 Sometimes I cook things, ferment things, etc.  This is a record of this.
 	<ul class="foods">
 
-	  {% for posts in site.food.posts %}
+	  {% for posts in site.categories.food %}
 	    <li><span>
 		    {{ post.date | date_to_string }}</span> » 
 		    <a href="{{ post.url }}" title="{{ post.title }}">{{ food.title }}<br>
