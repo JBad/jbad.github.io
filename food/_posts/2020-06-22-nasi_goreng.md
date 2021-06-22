@@ -1,5 +1,5 @@
 ---
-layout: food
+layout: post
 title: "Nasi Goreng"
 date: 2021-06-22
 ---
