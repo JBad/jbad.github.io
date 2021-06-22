@@ -1,0 +1,17 @@
+---
+layout: default
+title: Food Stuff
+---
+<h1>{{ page.title }}</h1>
+
+Sometimes I cook things, ferment things, etc.  This is a record of this.
+	<ul class="foods">
+
+	  {% for food in site.foods %}
+	    <li><span>
+		    {{ food.date | date_to_string }}</span> » 
+		    <a href="{{ food.url }}" title="{{ food.title }}">{{ food.title }}<br>
+		    <img src="{{ food.thumbnail }}" style="display:block;max-width:50%;height:auto;margin:auto;float:none!important;"/> 
+		    </a><br></li>
+	  {% endfor %}
+	</ul>
