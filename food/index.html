@@ -10,7 +10,7 @@ Sometimes I cook things, ferment things, etc.  This is a record of this.
 	  {% for post in site.categories.food %}
 	    <li><span>
 		    {{ post.date | date_to_string }}</span> » 
-		    <a href="{{ post.url }}" title="{{ post.title }}">{{ food.title }}<br>
+		    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br>
 		    <img src="{{ post.thumbnail }}" style="display:block;max-width:50%;height:auto;margin:auto;float:none!important;"/> 
 		    </a><br></li>
 	  {% endfor %}
