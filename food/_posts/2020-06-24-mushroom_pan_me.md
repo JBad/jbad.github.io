@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Aroy Rim Tang"
-date: 2021-06-23
+title: "Mushroom Pan Mee"
+date: 2021-06-24
 ---
 EXPLORATION + expierment to fgure out this recipe
 
-<h2>Aroy Rim Tang</h2>
+<h2>Mushroom Pan Mee</h2>
 Ingredients
 <ul>
   <li>Light Soy Sauce </li>
@@ -15,4 +15,4 @@ Steps
 <ol>
 </ol>
 
-
+experimentation with new dried mushroom: chiken of the woods, matsutake, king bolete and morel
