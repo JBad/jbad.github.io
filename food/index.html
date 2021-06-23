@@ -4,12 +4,11 @@ title: Food Stuff
 ---
 <h1>{{ page.title }}</h1>
 
-Sometimes I cook things, ferment things, etc.  This is a record of this.
+Sometimes I cook things, ferment things, etc.  This is a record of this.  There are tons of way better recipes that I use for pretty everything, so I'll keep these to recipes that I have made myself (usually trying to recreate a dish I like from a resturant) or a ferment based journey.
 	<ul class="posts">
 
 	  {% for post in site.categories.food %}
 	    <li><span>
-		    {{ post.date | date_to_string }}</span> » 
 		    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br>
 		    <img src="{{ post.thumbnail }}" style="display:block;max-width:50%;height:auto;margin:auto;float:none!important;"/> 
 		    </a><br></li>
