@@ -14,8 +14,9 @@ title: Jbad's Map
 		function load() {
 		mapboxgl.accessToken = 'pk.eyJ1IjoiamJhZGFzaCIsImEiOiJja3ExM3oxczAwMXNwMm9sYTNsbXZqdTBnIn0.5Kvwf2lG7rxYvJ9K63bcsA';
 		var map = new mapboxgl.Map({
-			container: 'map',
-			style: 'mapbox://styles/mapbox/streets-v11'});
+		    container: 'map',
+		    zoom: 1,
+		    style: 'mapbox://styles/mapbox/streets-v11'});
 		var mydata = choque
 		map.on('load', function () {
  			map.addSource('route', {
