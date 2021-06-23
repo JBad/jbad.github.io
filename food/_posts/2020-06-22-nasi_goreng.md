@@ -15,7 +15,7 @@ Ingredients
     <ul>
       <li>Tofu: I like to cut these into like long rectangles (1x1x4) then fry the outsides and then slive it into 1cm think slices.</li>
       <li>Paneer: Nothing traditional here, I cut them into like 1-2cm cubes, fry them, then toss them in salt, curry powder and a bit of sugar</li>
-      <li>Chicken: This would probably be great, just havent tried it, but mix it with some cornstarch and soy sauce I guess then lightly fry<li>
+      <li>Chicken: This would probably be great, just havent tried it, but mix it with some cornstarch and soy sauce I guess then lightly fry</li>
     </ul>
   </li>
   <li>1 cup packed leafy greens (cut up if using big leafy green, but if you are rocking like baby spinach as is fine)</li>
