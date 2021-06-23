@@ -25,12 +25,12 @@ Ingredients
   <li>Dark Soy Sauce (still not black)</li>
   <li>Light Soy Sauce </li>
   <li>1-2 tbsp Curry Powder: specifically <a href="http://www.efooddepot.com/products/tl-bon-con-voi-corp/5698/tl-bon-con-voi-corp-curry-powder-hot-(ca-rin-ni--hy--cay)--hy--2oz.html"> this one </a> If you need one and cant find it near you, let me know and I can ship it to you (if you are in the lower 48). </li>
-</ul>
   <li>2 Scallions</li>
   <li>Fried Shallots (surprisingly not optional :P)</li>
   <li>2 eggs</li>
   <li>1 cucomber slices lengthwise (garnish, optional)</li>
   <li>1/4 cup per person of pickled greens (garnish optional)</li>
+</ul>
 Steps:
 <ol>
   <li>prep your protein</li>
