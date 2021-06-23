@@ -24,10 +24,19 @@ Ingredients
   <li>Sweet Soy Sauce (also known as Kejap Manis, my favourite by far is the <a href="https://www.templeofthai.com/food/sauces/blacksweetsoy-5132222035.php"> dragon fly brand</a> but in a pinch healthy boy will do but is inferior.  Note: This is Sweet Soy Sauce, NOT Black Soy Sauce, if you are buying on you may as well get the other but make sure you use the right one here. </li>
   <li>Dark Soy Sauce (still not black)</li>
   <li>Light Soy Sauce </li>
+  <li>Curry Powder: specifically <a href="http://www.efooddepot.com/products/tl-bon-con-voi-corp/5698/tl-bon-con-voi-corp-curry-powder-hot-(ca-rin-ni--hy--cay)--hy--2oz.html"> this one </a> If you need one and cant find it near you, let me know and I can ship it to you (if you are in the lower 48). 
 </ul>
 
-Steps
+Steps:
 <ol>
+  <li>prep your protein</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ol>
 
 
