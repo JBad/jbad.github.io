@@ -16,7 +16,7 @@ title: Jbad's Map
 		var map = new mapboxgl.Map({
 			container: 'map',
 			style: 'mapbox://styles/mapbox/streets-v11'});
-		var mydata = JSON.parse(choque);
+		var mydata = choque//JSON.parse(choque);
 		map.on('load', function () {
  			map.addSource('route', {
 				'type': 'geojson',
