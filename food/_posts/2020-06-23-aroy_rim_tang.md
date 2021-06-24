@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: food
 title: "Aroy Rim Tang"
 date: 2021-06-23
 ---
