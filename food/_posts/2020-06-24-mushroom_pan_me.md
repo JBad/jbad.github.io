@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: food
 title: "Mushroom Pan Mee"
 date: 2021-06-24
 ---
