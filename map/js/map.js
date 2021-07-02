@@ -11,15 +11,17 @@ function load() {
 	zoom: 1,
 	style: 'mapbox://styles/mapbox/streets-v11'});
 
-    for (let i = 0; i < maplist.length; i++) {
-	var mydata = maplist[i]
+
+
 	map.on('load', function () {
-	map.addSource('route', {
-	    'type': 'geojson',
-	    'data': mydata
-	});
-	map.addLayer({
-	    'id': 'route',
+	    for (let i = 0; i < maplist.length; i++) {
+		var mydata = maplist[i]
+		map.addSource('route' + i, {
+		    'type': 'geojson',
+		    'data': mydata
+		});
+		map.addLayer({
+	    'id': 'route' + i,
 	    'type': 'line',
 	    'source': 'route',
 	    'layout': {
@@ -30,7 +32,7 @@ function load() {
 		'line-color': '#888',
 		'line-width': 8
 	    }
-	});
+		});
 	// When a click event occurs on a feature in the places layer, open a popup at the
 	// location of the feature, with description HTML from its properties.
 	map.on('click', 'route', function (e) {
@@ -50,5 +52,6 @@ function load() {
 		.setHTML(description)
 		.addTo(map);
 	});
-    });
+	    }
+	});
 }
