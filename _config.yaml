@@ -1,4 +1,3 @@
 name: Jesse
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-permalink: /food/:year/:month/:day/:title
+permalink: /:category/:year/:month/:day/:title

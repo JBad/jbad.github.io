@@ -2,6 +2,7 @@
 layout: food
 title: "Bhutanese Inspired Cheese Momo"
 date: 2021-06-21
+category: "food"
 ---
 
 I have never been to Bhutan.  These are most likely not at all authentic.  They incredibly tasty and based of off a recipe a friend brought back who lived in Bhutan for 4 months.

@@ -2,6 +2,7 @@
 layout: post
 title: "Jesse First Blog Post"
 thumbnail: "/res/Pathos.jpg"
+category: "blog"
 date: 2020-03-28
 ---
 

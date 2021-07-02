@@ -1,6 +1,7 @@
 ---
 layout: food
 title: "Nasi Goreng"
+category: "food"
 date: 2021-06-22
 ---
 <h2>Nasi Goreng</h2>

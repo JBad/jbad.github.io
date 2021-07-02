@@ -1,6 +1,7 @@
 ---
 layout: food
 title: "Mushroom Pan Mee"
+category: "food"
 date: 2021-06-24
 ---
 

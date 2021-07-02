@@ -1,6 +1,7 @@
 ---
 layout: food
 title: "Aroy Rim Tang"
+category: "food"
 date: 2021-06-23
 ---
 EXPLORATION + expierment to fgure out this recipe
