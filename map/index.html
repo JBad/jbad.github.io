@@ -13,7 +13,7 @@ trying to make a map...
 	  {% for post in site.categories.map %}
   <li>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br>
-      <script> maplist.push("{{post.title}}")</script>
+      <script> maplist.push({{post.title}})</script>
   </a><br></li>
 	  {% endfor %}
 

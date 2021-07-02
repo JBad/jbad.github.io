@@ -10,8 +10,10 @@ function load() {
 	container: 'map',
 	zoom: 1,
 	style: 'mapbox://styles/mapbox/streets-v11'});
-    var mydata = choque
-    map.on('load', function () {
+
+    for (let i = 0; i < maplist.length; i++) {
+	var mydata = maplist[i]
+	map.on('load', function () {
 	map.addSource('route', {
 	    'type': 'geojson',
 	    'data': mydata
