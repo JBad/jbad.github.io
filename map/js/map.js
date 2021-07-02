@@ -23,7 +23,7 @@ function load() {
 		map.addLayer({
 	    'id': 'route' + i,
 	    'type': 'line',
-	    'source': 'route',
+	    'source': 'route'+i,
 	    'layout': {
 		'line-join': 'round',
 		'line-cap': 'round'
