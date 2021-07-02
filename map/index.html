@@ -1,5 +1,5 @@
 ---
-1;95;0clayout: default
+1;95;0c1;95;0clayout: default
 title: Jbad's Map
 ---
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
@@ -40,7 +40,7 @@ title: Jbad's Map
 		    // location of the feature, with description HTML from its properties.
 		    map.on('click', 'route', function (e) {
 			var coordinates = e.features[0].geometry.coordinates.slice();
-			var description = e.features[0].properties.description + '<a href="https://jbad.github.io/food/2018/02/05/choque"> link</a>';
+			var description = e.features[0].properties.description + '<a href="https://jbad.github.io/map/2018/02/05/choque"> link</a>';
  
 			// Ensure that if the map is zoomed out such that multiple
 			// copies of the feature are visible, the popup appears
