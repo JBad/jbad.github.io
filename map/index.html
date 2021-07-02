@@ -40,7 +40,7 @@ title: Jbad's Map
 		    // location of the feature, with description HTML from its properties.
 		    map.on('click', 'route', function (e) {
 			var coordinates = e.features[0].geometry.coordinates.slice();
-			var description = e.features[0].properties.description + " https://jbad.github.io/food/2018/02/05/choque";
+			var description = e.features[0].properties.description + '<a href="https://jbad.github.io/food/2018/02/05/choque"> link</a>';
  
 			// Ensure that if the map is zoomed out such that multiple
 			// copies of the feature are visible, the popup appears
