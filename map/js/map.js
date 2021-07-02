@@ -35,7 +35,7 @@ function load() {
 		});
 	// When a click event occurs on a feature in the places layer, open a popup at the
 	// location of the feature, with description HTML from its properties.
-	map.on('click', 'route', function (e) {
+	map.on('click', 'route'+i, function (e) {
 	    var coordinates = e.features[0].geometry.coordinates.slice();
 	    //use the magic to auto generate the link for sure.
 	    // {{ post.url }} ??
