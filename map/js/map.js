@@ -3,6 +3,8 @@
 //<script id="choque" type="text/javascript" src="/map/res/choque.geojson"></script>
 //<link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
 function load() {
+    // Its not great, but you need to add your gpx tracks here
+    
     mapboxgl.accessToken = 'pk.eyJ1IjoiamJhZGFzaCIsImEiOiJja3ExM3oxczAwMXNwMm9sYTNsbXZqdTBnIn0.5Kvwf2lG7rxYvJ9K63bcsA';
     var map = new mapboxgl.Map({
 	container: 'map',
@@ -31,6 +33,8 @@ function load() {
 	// location of the feature, with description HTML from its properties.
 	map.on('click', 'route', function (e) {
 	    var coordinates = e.features[0].geometry.coordinates.slice();
+	    //use the magic to auto generate the link for sure.
+	    // {{ post.url }} ??
 	    var description = e.features[0].properties.description + '<a href="https://jbad.github.io/map/2018/02/05/choque"> link</a>';
 	    
 	    // Ensure that if the map is zoomed out such that multiple
