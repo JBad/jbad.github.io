@@ -21,37 +21,35 @@ function load() {
 		    'data': mydata
 		});
 		map.addLayer({
-	    'id': 'route' + i,
-	    'type': 'line',
-	    'source': 'route'+i,
-	    'layout': {
-		'line-join': 'round',
-		'line-cap': 'round'
-	    },
-	    'paint': {
-		'line-color': '#888',
-		'line-width': 8
-	    }
+		    'id': 'route' + i,
+		    'type': 'line',
+		    'source': 'route'+i,
+		    'layout': {
+			'line-join': 'round',
+			'line-cap': 'round'
+		    },
+		    'paint': {
+			'line-color': '#888',
+			'line-width': 8
+		    }
 		});
-	// When a click event occurs on a feature in the places layer, open a popup at the
-	// location of the feature, with description HTML from its properties.
-	map.on('click', 'route'+i, function (e) {
-	    var coordinates = e.features[0].geometry.coordinates.slice();
-	    //use the magic to auto generate the link for sure.
-	    // {{ post.url }} ??
-	    var description = e.features[0].properties.description + "<a href="+maplist[i].link + "> link</a>";
-	    
-	    // Ensure that if the map is zoomed out such that multiple
-	    // copies of the feature are visible, the popup appears
-	    // over the copy being pointed to.
-	    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-		coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-	    }	    
-	    new mapboxgl.Popup()
-		.setLngLat(coordinates[0])
-		.setHTML(description)
-		.addTo(map);
-	});
+		// When a click event occurs on a feature in the places layer, open a popup at the
+		// location of the feature, with description HTML from its properties.
+		map.on('click', 'route'+i, function (e) {
+		    var coordinates = e.features[0].geometry.coordinates.slice();
+		    var description = maplist[i].description + "<a href="+maplist[i].link + "> link</a>";
+		    
+		    // Ensure that if the map is zoomed out such that multiple
+		    // copies of the feature are visible, the popup appears
+		    // over the copy being pointed to.
+		    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+			coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+		    }	    
+		    new mapboxgl.Popup()
+			.setLngLat(coordinates[0])
+			.setHTML(description)
+			.addTo(map);
+		});
 	    }
 	});
 }

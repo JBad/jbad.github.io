@@ -13,7 +13,7 @@ trying to make a map...
 <li>
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br>
     <script id="{{post.title}}" type="text/javascript" src="/{{post.geo}}"></script>
-    <script> maplist.push({"data":{{post.title}},"link":"{{ post.url}}"})</script>
+    <script> maplist.push({"data":{{post.title}},"link":"{{ post.url}}","description":"{{post.description}}"})</script>
   </a><br></li>
 {% endfor %}
 
