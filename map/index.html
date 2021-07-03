@@ -9,6 +9,7 @@ title: Jbad's Map
 <h1>{{ page.title }}</h1>
 trying to make a map...
 <script> var maplist = [];</script>
+<div id='map' style="width: 100%; height: 400px;"></div>
 {% for post in site.categories.map %}
 <li>
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br>
@@ -18,6 +19,6 @@ trying to make a map...
 {% endfor %}
 
 
-<div id='map' style="width: 100%; height: 400px;"></div>
+
 <body onload="load()">
 </body>
