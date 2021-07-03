@@ -15,7 +15,7 @@ function load() {
 
 	map.on('load', function () {
 	    for (let i = 0; i < maplist.length; i++) {
-		var mydata = maplist[i]
+		var mydata = maplist[i].data
 		map.addSource('route' + i, {
 		    'type': 'geojson',
 		    'data': mydata
@@ -39,7 +39,7 @@ function load() {
 	    var coordinates = e.features[0].geometry.coordinates.slice();
 	    //use the magic to auto generate the link for sure.
 	    // {{ post.url }} ??
-	    var description = e.features[0].properties.description + '<a href="https://jbad.github.io/map/2018/02/05/choque"> link</a>';
+	    var description = e.features[0].properties.description + "<a href="+maplist[i].link + "> link</a>';
 	    
 	    // Ensure that if the map is zoomed out such that multiple
 	    // copies of the feature are visible, the popup appears

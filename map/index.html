@@ -10,12 +10,12 @@ title: Jbad's Map
 <h1>{{ page.title }}</h1>
 trying to make a map...
 <script> var maplist = [];</script>
-	  {% for post in site.categories.map %}
-  <li>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br>
-      <script> maplist.push({{post.title}})</script>
+{% for post in site.categories.map %}
+<li>
+  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br>
+    <script> maplist.push({"data":{{post.title}},"link":{{ post.url}})</script>
   </a><br></li>
-	  {% endfor %}
+{% endfor %}
 
 
 <div id='map' style='width: 400px; height: 300px;'></div>
