@@ -29,7 +29,7 @@ function load() {
 			'line-cap': 'round'
 		    },
 		    'paint': {
-			'line-color': '#888',
+			'line-color': '#f984e5',
 			'line-width': 8
 		    }
 		});
