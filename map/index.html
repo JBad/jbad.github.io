@@ -1,5 +1,5 @@
 ---
-layout: default
+1;95;0clayout: default
 title: Jbad's Map
 ---
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
@@ -13,7 +13,7 @@ trying to make a map...
 {% for post in site.categories.map %}
 <li>
   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}<br>
-    <script> maplist.push({"data":{{post.title}},"link":{{ post.url}})</script>
+    <script> maplist.push({"data":{{post.title}},"link":"{{ post.url}}")</script>
   </a><br></li>
 {% endfor %}
 
