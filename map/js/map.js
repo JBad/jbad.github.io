@@ -16,7 +16,8 @@ function load() {
 	map.on('load', function () {
 	    for (let i = 0; i < maplist.length; i++) {
                 //var mydata = JSON.parse(document.getElementById(maplist[i].data).textContent)
-		var mydata = JSON.parse($.get('res/' + maplist[i].data + '.geojson').responseText.replace(/\s/g, ''));
+		//var mydata = JSON.parse($.get('res/' + maplist[i].data + '.geojson').responseText.replace(/\s/g, ''));
+		var mydata = maplist[i].data;
 		map.addSource('route' + i, {
 		    'type': 'geojson',
 		    'data': mydata
