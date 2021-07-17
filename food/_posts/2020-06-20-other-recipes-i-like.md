@@ -20,6 +20,7 @@ With my customizations/notes
     <li>Crank up the red peppers</li>
   </ul>
   </li>
+  <li><a href="https://www.seriouseats.com/foolproof-pan-pizza-recipe">Pan Pizza</a></li>
 </ul>
 
 
