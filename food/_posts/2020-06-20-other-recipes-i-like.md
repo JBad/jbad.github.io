@@ -21,6 +21,42 @@ With my customizations/notes
   </ul>
   </li>
   <li><a href="https://www.seriouseats.com/foolproof-pan-pizza-recipe">Pan Pizza</a></li>
+  <li><a href="https://www.seriouseats.com/fish-fragrant-eggplants-sichuan-braised-eggplant-with-garlic-ginger-and-chilies">Fish Fragrant Eggplant</a>
+  <ul>
+  <li>You should buy Fuchsia Dunlop's books</li>
+  </ul>
+  </li>
+  <li><a href=""></a>
+  <ul>
+
+  </ul>
+  </li>
+  <li><a href=""></a>
+  <ul>
+
+  </ul>
+  </li>
+  <li><a href=""></a>
+  <ul>
+
+  </ul>
+  </li>
+  <li><a href=""></a>
+  <ul>
+
+  </ul>
+  </li>
+  <li><a href=""></a>
+  <ul>
+
+  </ul>
+  </li>
+  <li><a href=""></a>
+  <ul>
+
+  </ul>
+  </li>
+  
 </ul>
 
 
