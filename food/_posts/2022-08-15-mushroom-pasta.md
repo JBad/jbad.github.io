@@ -5,14 +5,14 @@ category: "food"
 date: 2021-06-24
 ---
 <h2>Mushroom Pasta</h2>
-Ingredients
--3 shallots
--chopped-80-100g of microplanned pecorino romano
--2tsbp of butter
--3tsbp of EVOO
--1 lb of fresh pasta
--30g of dried mushroom (hedgehog/chanteralle/morel)
--fresh ground black pepper
+Ingredients:
+- 3 shallots
+- chopped-80-100g of microplanned pecorino romano
+- 2tsbp of butter
+- 3tsbp of EVOO
+- 1 lb of fresh pasta
+- 30g of dried mushroom (hedgehog/chanteralle/morel)
+- fresh ground black pepper
 
 Steps:
 1. take mushrooms put them in a mug and fill with boiling water, let sit for ~30 minutes
