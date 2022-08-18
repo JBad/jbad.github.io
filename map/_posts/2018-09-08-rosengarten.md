@@ -1,5 +1,5 @@
 ---
-layout: food
+layout: map
 title: "rosengarten"
 date: 2018-02-05
 geo: "map/res/rosengarten.geojson"
