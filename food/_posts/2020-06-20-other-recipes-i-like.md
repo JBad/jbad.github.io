@@ -26,7 +26,7 @@ With my customizations/notes
   <li>You should buy Fuchsia Dunlop's books</li>
   </ul>
   </li>
-  <li><a href=""></a>
+  <li><a href="https://www.youtube.com/watch?v=QhsrBz9Cceg&t=92s&ab_channel=J.KenjiL%C3%B3pez-Alt">Kenji's Japanese Curry</a>
   <ul>
 
   </ul>
