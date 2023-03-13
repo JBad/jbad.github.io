@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Immigration Rates of the late early 2000's
+title: "Immigration Rates of the late early 2000's"
 date: 2020-03-29
 category: "blog"
 thumbnail: "/res/Pathos.jpg"
