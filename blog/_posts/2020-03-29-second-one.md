@@ -14,3 +14,12 @@ the [NYC Gov](https://www.nyc.gov/assets/immigrants/downloads/pdf/Fact-Sheet-NYC
  - In the last 10 years Koreans (71k->55k) and Japanese(16k->15k) net emigrated from NYC (only API group to do so) and Bangledeshi's almost doubled! (27k->53k) (NOTE: the chart this is for API immigrants, not american's! not sure what that means, but it certainly means somthing (probably second gen+3rd gen?, but certainly  reduction in active immigration).  Some obvious follow ups here:
    - Japanese are at 1.9% of the NYC population, but (2.5% of the entire US) -- obviously their food is "over respresented" in pop culture, this is well explored, find some good articles to link that here.
    - Will we start to we more Eastern-Indian/Bangledeshi cuisine pop up?
+
+Some other notes from [NYC on resturant stuff](https://www.osc.state.ny.us/files/reports/osdc/pdf/nyc-restaurant-industry-final.pdf):
+ - Hispanics make up 44% of resturant workforce (27% of all NYC workers)
+ - Asians make up 20% of resturant workers (and 15% of all NYC workers)
+ where as:
+ - Whites 21% resturant (35% all NYC)
+ - African American : 13% resturant (20% all NYC)
+
+So thats interesting.
