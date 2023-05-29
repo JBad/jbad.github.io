@@ -4,7 +4,7 @@
 //<link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
 function load() {
     // Its not great, but you need to add your gpx tracks here
-    
+    colors = ['#f984e5', '#FF8B00', '#247A1C', '#1933F1', '#FF0000']    
     mapboxgl.accessToken = 'pk.eyJ1IjoiamJhZGFzaCIsImEiOiJja3ExM3oxczAwMXNwMm9sYTNsbXZqdTBnIn0.5Kvwf2lG7rxYvJ9K63bcsA';
     var map = new mapboxgl.Map({
 	container: 'map',
@@ -31,7 +31,7 @@ function load() {
 			'line-cap': 'round'
 		    },
 		    'paint': {
-			'line-color': '#f984e5',
+			'line-color': colors[i%colors.length],
 			'line-width': 8
 		    }
 		});
