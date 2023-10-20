@@ -23,3 +23,13 @@ Some other notes from [NYC on resturant stuff](https://www.osc.state.ny.us/files
  - African American : 13% resturant (20% all NYC)
 
 So thats interesting.
+
+So Sarah asks if I am a wierdo obessesed with immigration rates.  I am not, I am hoping to use this information to answer a bunch of questions about stuff I see in NY.  specifically I want to know about food that was left behind by immigrant populations. some questions I hope to answer are, and have a longish-form article on each of these 
+
+ - Why did Kati Rolls not make into the US until the 00's
+ - Why did Arancini not take off as a street food, but pizza killed it?
+ - Why is Pad Khee Mao Sen Yai the international classic, but the sen yai is not implied in thailand?
+ - Why Sake but not Makgoelli?
+ - Japaneses food in genereal (this is probably well studied I can just site other people)
+ - Why very very few malaysian resturants in NYC?
+ - I have a bunch more!
